@@ -2,13 +2,13 @@ def transform(foots,type):
     int_foot=int(foots)
     if type == "inch":
         inch=int_foot*12
-        return f"Result:{inch} inches"
+        return f"Result:{int_foot} foots are {inch} inches"
     elif type == "yard":
         yard=int_foot/3
-        return f"Result:{yard} yards"
+        return f"Result:{int_foot} foots are {yard} yards"
     elif type == "mile":
         mile=int_foot/5280
-        return f"Result:{mile} miles"
+        return f"Result:{int_foot} foots are {mile} miles"
     else:
         return "type error"
 
